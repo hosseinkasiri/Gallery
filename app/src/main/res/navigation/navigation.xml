@@ -5,6 +5,6 @@
 
     <fragment
         android:id="@+id/galleryFragment"
-        android:name="com.example.gallery.GalleryFragment"
+        android:name="com.example.gallery.gallery.GalleryFragment"
         android:label="GalleryFragment" />
 </navigation>
