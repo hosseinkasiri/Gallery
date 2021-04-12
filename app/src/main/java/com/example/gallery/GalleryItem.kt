@@ -1,3 +1,7 @@
 package com.example.gallery
 
-data class GalleryItem(val id: String, val caption: String, val url: String)
+import com.squareup.moshi.Json
+
+data class GalleryItem(@Json(name = "id")val id: String,
+                       @Json(name = "title")val caption: String,
+                       @Json(name = "url_s")val url: String)
